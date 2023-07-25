@@ -1,0 +1,43 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/aasemhany/Desktop/Development/Lib/flutter_pos_printer_platform-1.4.1/example/build/app/intermediates/incremental/mergeDebugResources/merged.dir/values-es/values-es.xml",
+            "map": [
+                {
+                    "source": "/Users/aasemhany/.gradle/caches/transforms-3/acbce933e4b464a5224ed377a62db1f5/transformed/core-1.6.0/res/values-es/values-es.xml",
+                    "from": {
+                        "startLines": "2",
+                        "startColumns": "4",
+                        "startOffsets": "55",
+                        "endColumns": "100",
+                        "endOffsets": "151"
+                    },
+                    "to": {
+                        "startLines": "9",
+                        "startColumns": "4",
+                        "startOffsets": "687",
+                        "endColumns": "100",
+                        "endOffsets": "783"
+                    }
+                },
+                {
+                    "source": "/Users/aasemhany/Desktop/Development/Lib/flutter_pos_printer_platform-1.4.1/example/build/flutter_pos_printer_platform/intermediates/packaged_res/debug/values-es/values-es.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,122,196,282,374,454,562,687",
+                        "endColumns": "66,73,85,91,79,107,124,93",
+                        "endOffsets": "117,191,277,369,449,557,682,776"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6,7,8,10",
+                        "startColumns": "4,4,4,4,4,4,4,4",
+                        "startOffsets": "55,122,196,282,374,454,562,788",
+                        "endColumns": "66,73,85,91,79,107,124,93",
+                        "endOffsets": "117,191,277,369,449,557,682,877"
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -26,5 +26,5 @@ doc/api/
 
 .flutter-plugins
 .flutter-plugins-dependencies
-/example/.dart_tool/
-/example/build/
+example/.dart_tool/
+example/build/

@@ -18,8 +18,8 @@
 @import flutter_pos_printer_platform;
 #endif
 
-#if __has_include(<network_info_plus/FLTNetworkInfoPlusPlugin.h>)
-#import <network_info_plus/FLTNetworkInfoPlusPlugin.h>
+#if __has_include(<network_info_plus/FPPNetworkInfoPlusPlugin.h>)
+#import <network_info_plus/FPPNetworkInfoPlusPlugin.h>
 #else
 @import network_info_plus;
 #endif
@@ -29,7 +29,7 @@
 + (void)registerWithRegistry:(NSObject<FlutterPluginRegistry>*)registry {
   [FlutterIcmpPingPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterIcmpPingPlugin"]];
   [FlutterPosPrinterPlatformPlugin registerWithRegistrar:[registry registrarForPlugin:@"FlutterPosPrinterPlatformPlugin"]];
-  [FLTNetworkInfoPlusPlugin registerWithRegistrar:[registry registrarForPlugin:@"FLTNetworkInfoPlusPlugin"]];
+  [FPPNetworkInfoPlusPlugin registerWithRegistrar:[registry registrarForPlugin:@"FPPNetworkInfoPlusPlugin"]];
 }
 
 @end

@@ -4,7 +4,7 @@ version: 1.4.1
 homepage: https://github.com/arthas1888/flutter_pos_printer_platform
 
 environment:
-  sdk: '>=2.18.4 <3.3.10'
+  sdk: '>=2.18.4 <=3.4.1'
   flutter: ">=1.20.0"
 
 dependencies:
@@ -15,7 +15,7 @@ dependencies:
   enum_to_string: ^2.0.1
   image: ^4.0.15
 
-  network_info_plus: ^3.0.2
+  network_info_plus: ^5.0.3
   ping_discover_network_forked: ^0.0.1
   rxdart: ^0.27.7
   gbk_codec: ^0.4.0
